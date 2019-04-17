@@ -15,5 +15,5 @@ setup(
         'lap @ git+https://github.com/nowfred/lap.git@v0.5.0#egg=lap',
         'lapjv @ git+https://github.com/nowfred/lapjv.git@v1.4.1#egg=lapjv'
     ],
-    version="1.0"
+    version="1.0.1"
 )
