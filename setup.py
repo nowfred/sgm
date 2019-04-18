@@ -1,12 +1,13 @@
 #!/usr/bin/env/python
 
-from setuptools import setup
+from setuptools import setup, find_packages
+
 
 setup(
     name="sgm",
     author="...",
     classifiers=[],
-    packages=['sgm'],
+    packages=find_packages(),
     install_requires=[
         'cython==0.29.3',
         'tqdm',
